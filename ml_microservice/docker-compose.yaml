@@ -1,0 +1,16 @@
+    
+version: '3'
+services:
+  canary:
+    build:
+      context: .
+      dockerfile: dockerfile_canary
+    ports:
+     - "5001:5001"
+  iris_app:
+    build:
+      context: .
+      dockerfile: dockerfile_iris
+    ports:
+     - "5000:5000"
+

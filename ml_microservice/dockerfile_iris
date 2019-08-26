@@ -1,0 +1,12 @@
+FROM python:3.6.6-slim-stretch
+
+COPY requirements.txt .
+RUN pip install --upgrade -r requirements.txt
+
+COPY flask_app.py .
+COPY iris_model.pkl .
+
+ENTRYPOINT [ "python3.6", "flask_app.py" ]
+
+# sudo docker build --no-cache -t canary -f Dockerfile_canary .
+# sudo docker run -p 5001:5001 canary
