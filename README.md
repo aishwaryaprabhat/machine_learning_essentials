@@ -19,7 +19,7 @@ regression/
 * `Linear Regression.pdf` and `Linear Regression.docx` contains theory/interview questions.
 * `Regression.ipynb` contains code snippets and examples 
 
-Topic covered include:
+Topics covered include:
 
 * Linear Regression
 * Gradient Descent
