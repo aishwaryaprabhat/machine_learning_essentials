@@ -3,8 +3,17 @@ A repository that will contain notes, sample code and cheatsheets related to mac
 
 Currently it contains material related to 
 
+* Complete Data Science Project (Housing Price Prediction)
 * Regression
 * ML as Microservice: Deploying a ML model as a service using Flask, Docker and Kubernetes
+
+## Complete Data Science Project (Housing Price Prediction)
+**Objective**:
+Build a model of housing prices in California using the California census data. The data comprises of features such has population, median income, median housing price. The goal is to build a model that can learn from this data and be able to predict the median housing price in any district (smallest geographical unit in our consideration).
+
+The project follows and executes the following general plan of how to execute a Data Science project:
+
+1. Frame the problem and look at the big picture.2. Get the data.3. Explore the data to gain insights.4. Prepare the data to better expose the underlying data patterns to Machine Learningalgorithms.5. Explore many different models and short-list the best ones.6. Fine-tune your models and combine them into a great solution.7. Present your solution.8. Launch, monitor, and maintain your system.
 
 ## Regression
 This directory contains the following:
